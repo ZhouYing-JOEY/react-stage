@@ -3,50 +3,31 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "babel-plugin-import": "^1.13.3",
-    "webpack-merge": "^5.8.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.15.5",
-    "@babel/plugin-proposal-class-properties": "^7.14.5",
-    "@babel/plugin-proposal-decorators": "^7.15.4",
-    "@babel/plugin-proposal-object-rest-spread": "^7.14.7",
-    "@babel/plugin-proposal-private-methods": "^7.14.5",
-    "@babel/plugin-transform-runtime": "^7.15.0",
-    "@babel/preset-env": "^7.15.4",
-    "@babel/preset-react": "^7.14.5",
-    "@babel/runtime": "^7.15.4",
-    "antd": "^4.16.13",
-    "autoprefixer": "^10.3.4",
-    "babel-loader": "^8.2.2",
-    "css-loader": "^6.2.0",
-    "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.3.2",
-    "less-loader": "^10.0.1",
-    "postcss": "^8.3.6",
-    "postcss-loader": "^6.1.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "style-loader": "^3.2.1",
-    "url-loader": "^4.1.1",
-    "webpack": "^5.52.0",
-    "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.1.1",
-    "webpackbar": "^5.0.0-3"
-  },
   "scripts": {
-    "build": "webpack",
-    "start": "node ./build/server --config ./build/webpack.dev.js "
+    "start": "webpack serve --config ./webpack.config.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yaoqicaicaicai/react-stage.git"
   },
-  "author": "yaoqicaicaicai",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/yaoqicaicaicai/react-stage/issues"
   },
-  "homepage": "https://github.com/yaoqicaicaicai/react-stage#readme"
+  "homepage": "https://github.com/yaoqicaicaicai/react-stage#readme",
+  "dependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.58.0",
+    "webpack-cli": "^4.9.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^4.3.1"
+  }
 }
